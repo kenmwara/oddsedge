@@ -78,4 +78,4 @@ Landing, signup, results, and the upgrade flow run on Cloudflare Pages + Functio
 
 ---
 
-*Built solo. The engine + research prompt are private — the edge is the product; this repo is an architecture showcase.*
+*The engine + research prompt are private — the edge is the product; this repo is an architecture showcase.*
