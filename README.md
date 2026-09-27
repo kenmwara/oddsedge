@@ -17,7 +17,7 @@
 
 ## What this is
 
-OddsEdge is a niche-agnostic **intelligence-subscription engine** I built and run autonomously on a DigitalOcean droplet. A scheduled job researches one niche once per day, Claude synthesizes a sharp branded brief, and it's delivered to subscribers over **email + Telegram**. The **free tier** is a 2-item teaser (the funnel); the **paid tier** is the full edition. One research run serves the entire list, so cost is flat (~a few cents of tokens per issue) while revenue scales with the subscriber count.
+OddsEdge is a niche-agnostic **intelligence-subscription engine** I built to run autonomously on a DigitalOcean droplet. A scheduled job researches one niche once per day, Claude synthesizes a sharp branded brief, and it's delivered to subscribers over **email + Telegram**. The **free tier** is a 2-item teaser (the funnel); the **paid tier** is the full edition. One research run serves the entire list, so cost is flat (~a few cents of tokens per issue) while revenue scales with the subscriber count.
 
 It's content, not money management — no custody or regulatory drag — and it deliberately reuses ~80% of the [T BOT](https://github.com/kenmwara/tbot) stack (cron → LLM → notify).
 
